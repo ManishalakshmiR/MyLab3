@@ -25,8 +25,11 @@ class ViewController: UIViewController {
             let text2 = lastName.text ?? ""
             let text3 = countryName.text ?? ""
             let text4 = ageValue.text ?? ""
-
-            let concatenatedText = "\(text1) \n\(text2) \n\(text3) \n\(text4)"
+            
+            let nameTag = "Full Name :"
+            let countryTag = "Country :"
+            let ageTag = "Age :"
+            let concatenatedText = "\(nameTag) \(text1) \(text2) \n\(countryTag) \(text3) \n\(ageTag) \(text4)"
         userViewContent.text = concatenatedText
         }
     
@@ -59,6 +62,8 @@ class ViewController: UIViewController {
         ageValue.text = ""
         userViewContent.text = ""
         successLabel.text = ""
+        
+        firstName.becomeFirstResponder()
     }
     
     override func viewDidLoad() {

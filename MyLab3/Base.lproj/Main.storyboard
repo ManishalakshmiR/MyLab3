@@ -63,7 +63,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Submit"/>
                                 <connections>
-                                    <action selector="SubmitButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ObK-zC-FGu"/>
+                                    <action selector="submitButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mWz-FQ-Kfm"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jgm-Yp-drc">
@@ -73,7 +73,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Clear"/>
                                 <connections>
-                                    <action selector="ClearButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dvY-x1-ctw"/>
+                                    <action selector="clearButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="siE-pt-iBP"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p38-tN-2Fc">
@@ -83,7 +83,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Add"/>
                                 <connections>
-                                    <action selector="AddButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Atj-fd-wM3"/>
+                                    <action selector="addButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wm8-M3-zhX"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -125,12 +125,12 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="Age" destination="b7I-Il-XQk" id="xRB-zX-yY3"/>
-                        <outlet property="Country" destination="fey-6K-Ibb" id="IT0-Wo-cqe"/>
                         <outlet property="FirstName" destination="Nqh-mU-YA1" id="fhe-hF-piT"/>
                         <outlet property="LastName" destination="NpO-yU-Z7f" id="Vfz-nd-NnO"/>
                         <outlet property="SuccessLabel" destination="74F-jO-GtI" id="tqk-dB-4xY"/>
                         <outlet property="UserViewContent" destination="MuW-eN-M2j" id="z1Q-kP-QBh"/>
+                        <outlet property="ageValue" destination="b7I-Il-XQk" id="mAm-HM-TV9"/>
+                        <outlet property="countryName" destination="fey-6K-Ibb" id="Dfc-jR-a1H"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
